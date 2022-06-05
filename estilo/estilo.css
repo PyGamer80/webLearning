@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;   
+    background-color: #202226;
+    background-image: url(/img/imagem/pexels-eva-elijas-7629493.jpg);
+    background-size: 1280px 849px;
+    background-repeat: repeat;
+}
+.content{
+    margin: auto;
+    max-width: 1280px;
+    min-width: 640px;
+    
+}
+
+#header{
+}
+#navigation{
+    background-color: #202226;
+    height: 80px;   
+    width: 100%;   
+    display: flex;
+    flex-direction: row-reverse;
+}
+.div-icon{
+    padding-top: 25px;
+    float: right;
+}
+.div-link{
+    padding-top: 35px;
+    float: right;    
+}
+i{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #DB8C1D;
+}
+.linkheader{
+    text-decoration: none;
+    font-family: "mallanna";
+    font-size: 15px;
+    font-style: italic;
+    color: #FFF;
+    margin-right: 20px;
+}
+.subnavi{
+    background-image: url(/img/imagem/teclado-preto.jpg);
+    background-size: 1280px 1000px;
+    background-repeat: no-repeat;
+   
+
+}
+.img-central{
+    padding-left: 20%;
+    padding-top: 15%;
+    height: 700px;
+    width: 100%;
+}
+.img-centro-header{
+    
+    border-style: solid; color: #0597F2;
+    border-width:40px;
+}
+.nome{
+    padding-right: 45%;
+    padding-top: 1%;
+    float: left;
+    font-size: 22px;
+    font-style: italic;
+    color: #DB8C1D;
+}
