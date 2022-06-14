@@ -8,47 +8,58 @@ body{
 }
 .content{
     margin: auto;
-    max-width: 1280px;
+    max-width: 1080px;
     min-width: 640px;
-    
-}
-
-#header{
 }
 #navigation{
+    position: relative;
     background-color: #202226;
     height: 80px;   
     width: 100%;   
-    display: flex;
-    flex-direction: row-reverse;
 }
 .div-icon{
-    padding-top: 25px;
-    float: right;
+    position:absolute;
+    right: 20px;    
+    bottom: 25%;
 }
 .div-link{
-    padding-top: 35px;
-    float: right;    
+    position: absolute;
+    right:160px;
+    bottom:25%;    
 }
-i{
+.nome{
+    position:absolute;
+    left:10px;
+    font-style: italic;
+    color: #DB8C1D;
+    top:22%;
+}
+.icon{
+    margin-right: 5px;
     font-size: 30px;
-    margin-right: 20px;
     color: #DB8C1D;
 }
-.linkheader{
+.link{
     text-decoration: none;
     font-family: "mallanna";
     font-size: 15px;
     font-style: italic;
     color: #FFF;
-    margin-right: 20px;
 }
+.nome:hover{
+    color: aliceblue;
+    transition-duration: 1s; 
+}
+.icon:hover{
+    color: aliceblue;
+    transition-duration: 1s;
+    
+}
+
 .subnavi{
     background-image: url(/img/imagem/teclado-preto.jpg);
     background-size: 1280px 1000px;
     background-repeat: no-repeat;
-   
-
 }
 .img-central{
     padding-left: 20%;
@@ -57,16 +68,6 @@ i{
     width: 100%;
 }
 .img-centro-header{
-    
     border-style: solid; color: #0597F2;
     border-width:40px;
 }
-.nome{
-    padding-right: 45%;
-    padding-top: 1%;
-    float: left;
-    font-size: 22px;
-    font-style: italic;
-    color: #DB8C1D;
-}
-
