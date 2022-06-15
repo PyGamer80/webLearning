@@ -49,25 +49,50 @@ body{
 .nome:hover{
     color: aliceblue;
     transition-duration: 1s; 
+    
 }
 .icon:hover{
     color: aliceblue;
     transition-duration: 1s;
-    
+    cursor:pointer;
+}
+.link:hover{
+    color: #DB8C1D;
+    transition-duration: 1s;
+    cursor:pointer;
 }
 
 .subnavi{
+    position: relative;
     background-image: url(/img/imagem/teclado-preto.jpg);
     background-size: 1280px 1000px;
     background-repeat: no-repeat;
-}
-.img-central{
-    padding-left: 20%;
-    padding-top: 15%;
-    height: 700px;
+    height: 800px;
     width: 100%;
 }
+ .img-central{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;    
+    bottom: 25%;
+ }
 .img-centro-header{
-    border-style: solid; color: #0597F2;
-    border-width:40px;
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #0597F2;
+    border-width: 2px;
+    border-radius: 20px; 
+}
+.img-centro-header:hover{
+    border-color: #DB8C1D;
+    transition-duration: 1s;
+    border-width: 3px;
+    border-radius: 50px;
+}
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color:#C5CED9;
 }
