@@ -92,7 +92,44 @@ body{
     border-radius: 50px;
 }
 .rodape{
+    position: relative;
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color:#C5CED9;
+}
+
+.icons-rodape{
+    position: absolute;
+    
+    left: 10%;
+    top: 7%;
+}
+.link-rodape{
+    position: absolute;
+    left: 40%;
+    top: 12%;
+}
+.link-roda{
+    display: block;
+    text-decoration: none;
+    font-family: "mallanna";
+    font-size: 25px;
+    font-style: italic;
+    color: #283540;
+}
+.icons-roda{
+    display: block;
+    color: #283540;
+    margin: 2px;
+    font-size: 40px;
+}
+.link-roda:hover{
+    color: #DB8C1D;
+    transition-duration: 1s;
+    cursor:pointer;
+}
+.icons-roda:hover{
+    color:#DB8C1D;
+    transition-duration: 1s;
+    cursor:pointer;
 }
