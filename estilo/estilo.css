@@ -6,39 +6,46 @@ body{
     background-size: 1280px 849px;
     background-repeat: repeat;
 }
+/* Div que contém toda a pagina dentro do body */
 .content{
     margin: auto;
     max-width: 1080px;
     min-width: 640px;
 }
+/* Nav de barra superior de navegação */
 #navigation{
     position: relative;
     background-color: #202226;
     height: 80px;   
     width: 100%;   
 }
+/* Div container de icones dentro da barra de navegação */
 .div-icon{
     position:absolute;
-    right: 20px;    
+    right: 30px;    
     bottom: 25%;
 }
+/* Div de links dentro da barra de navegação */
 .div-link{
     position: absolute;
-    right:160px;
+    right:180px;
     bottom:25%;    
 }
+/* H2 de nome dentro da barra de navegação */
 .nome{
     position:absolute;
-    left:10px;
+    left:30px;
     font-style: italic;
     color: #DB8C1D;
     top:22%;
 }
+/* Estilo dos icones dentro da div na  barra de navegação */
 .icon{
     margin-right: 5px;
     font-size: 30px;
     color: #DB8C1D;
 }
+/* Estilo dos links dentro da viv de link na barra de navegação */
 .link{
     text-decoration: none;
     font-family: "mallanna";
@@ -46,22 +53,24 @@ body{
     font-style: italic;
     color: #FFF;
 }
+/* Efeitos de hover no nome */
 .nome:hover{
     color: aliceblue;
     transition-duration: 1s; 
     
 }
+/* Efeitos de hover dos icones */
 .icon:hover{
     color: aliceblue;
     transition-duration: 1s;
     cursor:pointer;
-}
+}/* Efeitos de hover de links */
 .link:hover{
     color: #DB8C1D;
     transition-duration: 1s;
     cursor:pointer;
 }
-
+/* Espaço central abaixo da NAV e sobre o rodapé */
 .subnavi{
     position: relative;
     background-image: url(/img/imagem/teclado-preto.jpg);
@@ -70,6 +79,7 @@ body{
     height: 800px;
     width: 100%;
 }
+/* Div que contém a imagem central */
  .img-central{
     position: absolute;
     width: 50%;
@@ -77,6 +87,7 @@ body{
     left: 25%;    
     bottom: 25%;
  }
+ /* Imagem central */
 .img-centro-header{
     width: 100%;
     height: 100%;
@@ -85,30 +96,36 @@ body{
     border-width: 2px;
     border-radius: 20px; 
 }
+/* Efeito de hover ne imagem central */
 .img-centro-header:hover{
     border-color: #DB8C1D;
-    transition-duration: 1s;
-    border-width: 3px;
-    border-radius: 50px;
+    transition-duration: 2s;
+    border-width: 5px;
+    border-radius: 120px;
 }
+/* Div rodapé  */
 .rodape{
     position: relative;
     width: 100%;
     height: 150px;
     background-color:#C5CED9;
 }
-
+/* Div de icones do rodapé */
 .icons-rodape{
+    margin-left: auto;
+    margin-right: auto;
     position: absolute;
-    
     left: 10%;
     top: 7%;
+    top: 30px;
 }
+/* Div de links do rodapé */
 .link-rodape{
     position: absolute;
     left: 40%;
     top: 12%;
 }
+/* Estilos dos links dentro da div de links do rodapé */
 .link-roda{
     display: block;
     text-decoration: none;
@@ -117,19 +134,22 @@ body{
     font-style: italic;
     color: #283540;
 }
+/* Estilos dos icones dentro da div de icones do rodapé */
 .icons-roda{
-    display: block;
     color: #283540;
-    margin: 2px;
-    font-size: 40px;
+    font-size: 60px;    
+    margin: 10px;
 }
+/* Efeitos de hover dos links do rodapé */
 .link-roda:hover{
     color: #DB8C1D;
     transition-duration: 1s;
     cursor:pointer;
 }
+/* Efeitos de hover dos icones dentro do rodapé */
 .icons-roda:hover{
     color:#DB8C1D;
-    transition-duration: 1s;
+    transition-duration: 2s;
     cursor:pointer;
+    transform:rotate(360deg) ;
 }
