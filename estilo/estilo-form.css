@@ -1,55 +1,58 @@
 body{  
     background-color: #102940;
 }
+/*Div onde fica toda a página */
 .content-form{
     margin: auto;
     max-width: 720px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79)); /* webkit */
-
 }
+/* Quadro central do ormulário*/
 .quadro{      
-    width: 100%;
     height: 750px;
 }
+/* Barra de navegação superior*/
 #navigation{
+    position: relative;
     background-color: #202226;
     height: 80px;   
     width: 100%;   
-    display: flex;
-    flex-direction: row-reverse;
 }
+/* Div onde ficam os icones*/
 .div-icon{
-    width: 160px;
-    padding-top:30px ;
-    float: right;
+    position:absolute;
+    right: 30px;    
+    bottom: 25%;
 }
+/*Div onde ficam os links */
 .div-link{
-    width: 300px;
-    padding-top: 35px;    
-    float: right;   
+    position: absolute;
+    right:180px;
+    bottom:25%;    
 }
+/*Estilos icones */
 i{
+    margin-right: 5px;
     font-size: 30px;
-    margin-right: 1px;
     color: #DB8C1D;
 }
+/*Estilos links */
 .linkheader{
     text-decoration: none;
     font-family: "mallanna";
     font-size: 15px;
     font-style: italic;
     color: #FFF;
-    margin-right: 10px;
 }
+/*Estilos nome */
 .nome{
-    width: 300px;
-    padding-left:20px;
-    padding-top: 10px;
-    float: left;
-    font-size: 22px;
+    position:absolute;
+    left:30px;
     font-style: italic;
     color: #DB8C1D;
+    top:22%;
 }
+/*Div abaixo da nav */
 .subnavi{
     background-color: #C5CED9;
     height: 640px;
@@ -57,6 +60,7 @@ i{
     margin-left: 120px;
     
 }
+/*Estilos de textos do formulário */
 .texto-form{
     margin-top: 40px;
     font-size:40px;
@@ -64,12 +68,14 @@ i{
     color: #5E778C;
     text-shadow:1px 1px 1px #102940;
 }
+/*Estilos formulário */
 .form{
     padding: 0px;
     margin: 50px;
     width: 350px;
     height: 380px;
 }
+/*Estilos rotulo */
 label{
     float: left; 
     clear: left; 
@@ -79,9 +85,9 @@ label{
     font-size: 16px; 
     color: #445668;
     text-transform: uppercase; 
-    text-shadow: 0px 1px 0px #f2f2f2;
-    
+    text-shadow: 0px 1px 0px #f2f2f2;   
 }
+/*Estilos input */
 input{
     width: 260px; 
     height: 35px; 
@@ -97,6 +103,7 @@ input{
     text-shadow: 0px -1px 0px #334f71;
 
 }
+/*Estilos text ares */
 textarea{
     width: 260px; 
     height: 170px; 
@@ -113,6 +120,7 @@ textarea{
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79)); /* webkit */
     
 }
+/*Estilo enviar */
 input[type=submit]{
     width: 185px; 
     height: 52px; 
@@ -123,4 +131,20 @@ input[type=submit]{
     border: 1px solid #556f8c;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79)); /* webkit */
     cursor: pointer;
+}
+.nome:hover{
+    color: aliceblue;
+    transition-duration: 1s; 
+    
+}
+i:hover{
+    color: aliceblue;
+    transition-duration: 2s;
+    cursor:pointer;
+    transform:rotate(360deg) ;
+}/* Efeitos de hover de links */
+.linkheader:hover{
+    color: #DB8C1D;
+    transition-duration: 1s;
+    cursor:pointer;
 }
