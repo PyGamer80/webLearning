@@ -62,8 +62,9 @@ body{
 /* Efeitos de hover dos icones */
 .icon:hover{
     color: aliceblue;
-    transition-duration: 1s;
+    transition-duration: 2s;
     cursor:pointer;
+    transform:rotate(360deg) ;
 }/* Efeitos de hover de links */
 .link:hover{
     color: #DB8C1D;
@@ -152,4 +153,13 @@ body{
     transition-duration: 2s;
     cursor:pointer;
     transform:rotate(360deg) ;
+}
+/*Texto sobre o designer */
+.designer{
+    position:absolute;
+    right: 90px;
+    font-style: italic;
+    margin: auto;
+    height: 90%;
+    cursor:pointer;
 }
