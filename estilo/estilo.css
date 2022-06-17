@@ -9,8 +9,8 @@ body{
 /* Div que contém toda a pagina dentro do body */
 .content{
     margin: auto;
-    max-width: 1080px;
-    min-width: 640px;
+    width: 1080px;
+    
 }
 /* Nav de barra superior de navegação */
 #navigation{
@@ -55,7 +55,7 @@ body{
 }
 /* Efeitos de hover no nome */
 .nome:hover{
-    color: aliceblue;
+    color: #DB8C1D;
     transition-duration: 1s; 
     
 }
@@ -162,4 +162,68 @@ body{
     margin: auto;
     height: 90%;
     cursor:pointer;
+}
+/*Responsividade */
+@media only screen and (max-width: 500px) {
+    .content{
+        width: 360px;
+        height: 500px;
+    }
+    /* Nav de barra superior de navegação */
+    #navigation{  
+        width: 100%;   
+        height: 80px;
+    }
+    /* Div container de icones dentro da barra de navegação */
+    .div-icon{
+        display: none;
+    }
+    /* H2 de nome dentro da barra de navegação */
+    .nome{
+        left:90px;
+        top: -10px;
+        font-size: 20px;   
+        color: #C5CED9;
+    }
+    /* Estilo dos links dentro da viv de link na barra de navegação */
+    .div-link{
+        position: absolute;
+        right:80px;
+        bottom:20%;    
+    }
+    /* Espaço central abaixo da NAV e sobre o rodapé */
+    .subnavi{
+        height: 410px;
+        width: 100%;
+    }
+    /* Div que contém a imagem central */
+     .img-central{
+        width: 90%;
+        height: 60%;
+        left: 15px;    
+        bottom: 110px;
+     }    
+     .img-centro-header:hover{
+        border-width: 1px;
+        border-radius: 60px;
+    }
+    /* Div rodapé  */
+    .rodape{
+        width: 100%;
+        height: 60px;
+    }
+    /* Div de icones do rodapé */
+    .icons-rodape{
+        margin-left: 20px;
+        left: 10%;
+        top: -9px;
+    }
+    /* Estilos dos links dentro da div de links do rodapé */
+    .link-roda{
+        display: none;
+    }   
+    /*Texto sobre o designer */
+    .designer{
+        display: none;
+    }
 }
